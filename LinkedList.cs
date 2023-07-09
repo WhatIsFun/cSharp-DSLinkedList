@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace cSharp_DSLinkedList
 {
@@ -113,6 +114,23 @@ namespace cSharp_DSLinkedList
                     Console.WriteLine("The previous node is null"); // if there is no previous node will print this like: the tail node in p5 and i enter p7.
                 }
             }
+        }
+        public int FindData(int data)
+        {
+            if (data == null || data == 0)
+            {
+                return -1;
+            }
+            int position = 0;
+            //foreach (Node node in )
+            //{
+            //    if (node.data == data)
+            //    {
+            //        return position;
+            //    }
+            //    position++;
+            //}
+            //return -1;
         }
     }
 }
