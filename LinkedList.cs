@@ -8,7 +8,7 @@ namespace cSharp_DSLinkedList
 {
     internal class LinkedList
     {
-        private Node head;
+        public Node head;
         public LinkedList()
         {
             head = null;
@@ -73,6 +73,43 @@ namespace cSharp_DSLinkedList
                         return;
                     }
                     prevNode.next = currentNode.next;
+                }
+            }
+        }
+        public void InsertByPosition(int data, int position)
+        {
+            Node newNode = new Node(data);
+            newNode.data = data;
+            newNode.next = null;
+            if (position < 1)
+            {
+                Console.Write("position should be equal or more than 1");
+            }
+            else if (position == 1)
+            {
+                newNode.next = head;
+                head = newNode;
+            }
+            else
+            {
+                Node prevNode = new Node(data);
+                prevNode = head;
+                for (int i = 1; i < position-1; i++)
+                {
+                    if (prevNode != null)
+                    {
+                        prevNode = prevNode.next;
+                    }
+                }
+                if (prevNode != null)
+                {
+                    newNode.next = prevNode.next;
+                    prevNode = newNode;
+
+                }
+                else
+                {
+                    Console.WriteLine("The previous node is null");
                 }
             }
         }
