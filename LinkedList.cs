@@ -93,6 +93,7 @@ namespace cSharp_DSLinkedList
             }
             else
             {
+                // To set the nodes between and the tail
                 Node currentNode = new Node(data);
                 currentNode = head;
                 for (int i = 1; i < position-1; i++)
@@ -109,10 +110,9 @@ namespace cSharp_DSLinkedList
                 }
                 else
                 {
-                    Console.WriteLine("The previous node is null");
+                    Console.WriteLine("The previous node is null"); // if there is no previous node will print this like: the tail node in p5 and i enter p7.
                 }
             }
         }
-        
     }
 }
