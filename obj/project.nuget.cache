@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WG8wxaesJp8xaQRqTpGDkvPsUIRtIknaLZetq7XHpW/6tXz4XNTF7/Of/BcL1Rs6aoE2wStfninwjyd7+Aavkw==",
+  "dgSpecHash": "t/PHcMyvctUQfiABX6TwLve+wRpO7dpVi8dxzuA4NlrOA0td3Tpaae0YFpk/VhVtC5bF5DGQ9FAl91DsEXR5tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\code-TRA\\git-starter\\cSharp-DSLinkedList\\cSharp-DSLinkedList.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\moham\\Source\\Repos\\cSharp-DSLinkedList\\cSharp-DSLinkedList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.18\\microsoft.netcore.app.host.win-x64.6.0.18.nupkg.sha512"
+  ],
   "logs": []
 }

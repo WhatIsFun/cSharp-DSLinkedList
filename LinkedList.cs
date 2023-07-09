@@ -81,31 +81,31 @@ namespace cSharp_DSLinkedList
             Node newNode = new Node(data);
             newNode.data = data;
             newNode.next = null;
-            if (position < 1)
+            if (position < 1) // To check if the position is more than 1
             {
-                Console.Write("position should be equal or more than 1");
+                Console.WriteLine("position should be equal or more than 1");
+                return;
             }
-            else if (position == 1)
+            else if (position == 1) // To set a head 
             {
                 newNode.next = head;
                 head = newNode;
             }
             else
             {
-                Node prevNode = new Node(data);
-                prevNode = head;
+                Node currentNode = new Node(data);
+                currentNode = head;
                 for (int i = 1; i < position-1; i++)
                 {
-                    if (prevNode != null)
+                    if (currentNode != null)
                     {
-                        prevNode = prevNode.next;
+                        currentNode = currentNode.next;
                     }
                 }
-                if (prevNode != null)
+                if (currentNode != null)
                 {
-                    newNode.next = prevNode.next;
-                    prevNode = newNode;
-
+                    newNode.next = currentNode.next;
+                    currentNode.next = newNode;
                 }
                 else
                 {
@@ -113,5 +113,6 @@ namespace cSharp_DSLinkedList
                 }
             }
         }
+        
     }
 }
