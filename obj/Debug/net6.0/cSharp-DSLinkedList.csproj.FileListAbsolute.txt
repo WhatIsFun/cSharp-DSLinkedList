@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.AssemblyInfo.cs
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\bin\Debug\net6.0\cSharp-DSLinkedList.exe
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\bin\Debug\net6.0\cSharp-DSLinkedList.deps.json
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\bin\Debug\net6.0\cSharp-DSLinkedList.runtimeconfig.json
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\bin\Debug\net6.0\cSharp-DSLinkedList.dll
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\bin\Debug\net6.0\cSharp-DSLinkedList.pdb
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.dll
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\refint\cSharp-DSLinkedList.dll
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.pdb
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\cSharp-DSLinkedList.genruntimeconfig.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-DSLinkedList\obj\Debug\net6.0\ref\cSharp-DSLinkedList.dll
