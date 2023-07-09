@@ -8,7 +8,13 @@
             linkedList.Insert(100);
             linkedList.Insert(90);
             linkedList.Insert(30);
+            linkedList.Insert(40);
 
+            linkedList.Display();
+
+
+            linkedList.Remove(90);
+            Console.WriteLine("After deleting...");
             linkedList.Display();
         }
     }
