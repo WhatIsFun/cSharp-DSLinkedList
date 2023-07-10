@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,7 +32,6 @@ namespace cSharp_DSLinkedList
                 {
                     currentNode = currentNode.next;
                 }
-                currentNode.next = newNode;
             }
         }
         public void Display()
@@ -81,8 +81,9 @@ namespace cSharp_DSLinkedList
         {
             Node newNode = new Node(data);
             newNode.data = data;
-            newNode.next = null;
-            if (position < 1) // To check if the position is more than 1
+          
+            
+            if (position < 1) // To check if the position is more than 1 or not.
             {
                 Console.WriteLine("position should be equal or more than 1");
                 return;
@@ -94,15 +95,17 @@ namespace cSharp_DSLinkedList
             }
             else
             {
-                // To set the nodes between and the tail
+                // To set the nodes between and the tail if the position is bigger than 1.
                 Node currentNode = new Node(data);
                 currentNode = head;
-                for (int i = 1; i < position-1; i++)
+                for (int i = 1; i < position-1; i++) // for (int i = 1; i < position-1 && currentNode.next != head; i++)
                 {
-                    if (currentNode != null)
+                    if (currentNode == null)
                     {
-                        currentNode = currentNode.next;
+                        currentNode = head;
                     }
+                    currentNode = currentNode.next;
+
                 }
                 if (currentNode != null)
                 {
@@ -117,20 +120,18 @@ namespace cSharp_DSLinkedList
         }
         public int FindData(int data)
         {
-            if (data == null || data == 0)
+            Node currentNode = head;
+            int position = 1;
+            while (currentNode != null) // This loop to search in the in the linkedList about the data.
             {
-                return -1;
+                if (currentNode.data == data)
+                {
+                    return position; // if the data found the system will return the position of the data.
+                }
+                currentNode = currentNode.next;
+                position++;// To count the position.
             }
-            int position = 0;
-            //foreach (Node node in )
-            //{
-            //    if (node.data == data)
-            //    {
-            //        return position;
-            //    }
-            //    position++;
-            //}
-            //return -1;
+            return -1; // if the data not found the system will return -1.
         }
     }
 }

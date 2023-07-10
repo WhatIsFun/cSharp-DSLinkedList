@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t/PHcMyvctUQfiABX6TwLve+wRpO7dpVi8dxzuA4NlrOA0td3Tpaae0YFpk/VhVtC5bF5DGQ9FAl91DsEXR5tw==",
+  "dgSpecHash": "6xDjmDS5KRSiK+G7A3xTtKr2SsThU/SL+5mx3Qxe42JhrorT3EFOMWGFQVWpm55F9WOlFoiddr49Pkod/Hd2tA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moham\\Source\\Repos\\cSharp-DSLinkedList\\cSharp-DSLinkedList.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.18\\microsoft.netcore.app.host.win-x64.6.0.18.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\cSharp-DSLinkedList\\cSharp-DSLinkedList.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
